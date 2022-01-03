@@ -1,0 +1,29 @@
+.form input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(0, 73, 73);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.btnSend {
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 3px solid tomato;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnSendActive:hover {
+    color: white;
+    background-color: rgb(177, 69, 50);
+    border: none !important;
+}
+
+.btnSendActive {
+    background-color: tomato;
+}
