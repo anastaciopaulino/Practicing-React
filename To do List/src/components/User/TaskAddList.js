@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import classes from "./UserAddList.module.css";
 
-import Card from "../UI/Card";
-
 const UserAddList = (props) => {
   const [task, setTask] = useState('')
 
